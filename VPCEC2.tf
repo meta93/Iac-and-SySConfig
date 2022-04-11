@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIAZ33XY6JDXTQJU3UU"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 resource "aws_vpc" "DataCent" {
