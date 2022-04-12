@@ -1,3 +1,12 @@
+# Stuffs in here
+# VPC
+# Subnet
+# Security Group
+# Route Table
+# Network Interface
+# EIP
+# Ec2 with userdata
+
 provider "aws" {
   region     = "us-east-1"
   access_key = ""
