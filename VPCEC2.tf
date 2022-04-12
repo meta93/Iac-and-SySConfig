@@ -93,9 +93,9 @@ resource "aws_network_interface" "netinter" {
 
 resource "aws_eip" "elasticadd" {
   vpc = true
-  network_interface = aws_network_interface.netinter.id
-  associate_with_private_ip = "11.0.0.10"
-  depends_on = [aws_internet_gateway.igw]
+#   network_interface = aws_network_interface.netinter.id
+#   associate_with_private_ip = "11.0.0.10"
+#   depends_on = [aws_internet_gateway.igw]
 }
 
 resource "aws_instance" "Mail"{
